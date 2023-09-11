@@ -1065,9 +1065,9 @@
                     @endif
                 </ul>
             </li>
-            @if(Auth::user()->role_id != 5)
+            {{-- @if(Auth::user()->role_id != 5)
             <li><a target="_blank" href="{{url('public/read_me')}}"> <i class="dripicons-information"></i><span>{{trans('file.Documentation')}}</span></a></li>
-            @endif
+            @endif --}}
         </ul>
       </nav>
 
